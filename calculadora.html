@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="js/calculadora.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+</head>
+<body>
+    <main>
+        <div>
+            <h2>Somar</h2>
+            <input type="number" id="n1">
+            <input type="number" id="n2">
+            =
+            <input type="text" id="result" disabled>
+            <button type="button" onclick="somar()">Somar</button>
+        </div>
+        <div>
+            <h2>Subtrair</h2>
+            <input type="number" id="n1_sub">
+            <input type="number" id="n2_sub">
+            =
+            <input type="text" id="result_sub" disabled>
+            <button type="button" onclick="sub()">Subtração</button>
+        </div>
+        <div>
+            <h2>Multiplicar</h2>
+            <input type="number" id="n1_mul">
+            <input type="number" id="n2_mul">
+            =
+            <input type="text" id="result_mul" disabled>
+            <button type="button" onclick="multiplicar()">Multiplicação</button>
+        </div>
+        <div>
+            <h2>Dividir</h2>
+            <input type="number" id="n1_div">
+            <input type="number" id="n2_div">
+            =
+            <input type="text" id="result_div" disabled>
+            <button type="button" onclick="dividir()">Divisão</button>
+        </div>
+        <div>
+            <h2>Média</h2>
+            <input type="number" id="n1_med">
+            <input type="number" id="n2_med">
+            <input type="number" id="n3_med">
+            =
+            <input type="text" id="result_med" disabled>
+            <button type="button" onclick="media()">Média</button>
+        </div>
+        <div>
+            <button type="button" onclick="limpar()">Limpar</button>
+        </div>
+    </main>
+</body>
+</html>
